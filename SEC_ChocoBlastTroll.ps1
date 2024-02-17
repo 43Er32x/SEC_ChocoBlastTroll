@@ -4,7 +4,7 @@ function CheckMouseMovement {
     $initialPosition = [System.Windows.Forms.Cursor]::Position
 
     # Attendre quelques secondes pour laisser l'utilisateur bouger la souris
-    Start-Sleep -Seconds 5
+    Start-Sleep -Seconds 2
 
     # Récupérer la nouvelle position du curseur
     $newPosition = [System.Windows.Forms.Cursor]::Position
